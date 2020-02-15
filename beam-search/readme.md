@@ -1,0 +1,2 @@
+beam search不是算法，只不过是一种每次预测的时候保留k个项作为候选项。
+譬如说seq2seq中的decoder。每次要decoder出k个词，为了防止最大概率的值出错。
